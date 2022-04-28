@@ -1,0 +1,28 @@
+{
+  "data" : [
+    {
+      "name": "CDMX",
+      "image": "cdmx.jpg"
+    },
+    {
+      "name": "Guadalajara Jal.",
+      "image": "guadalajara.jpg"
+    },
+    {
+      "name": "Monterrey N.L.",
+      "image": "monterrey.jpg"
+    },
+    {
+      "name": "Puebla",
+      "image": "puebla.jpg"
+    },
+    {
+      "name": "León Gto.",
+      "image": "leon.jpg"
+    },
+    {
+      "name": "Toluca Edo. Mex",
+      "image": "toluca.jpg"
+    }
+  ]
+}
