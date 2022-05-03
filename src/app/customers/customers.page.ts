@@ -12,6 +12,7 @@ import { map } from 'rxjs/Operators';
 export class CustomersPage implements OnInit {
 
   customers: any = [];
+  searchedCustomer: any;
 
   permision: boolean;
 
@@ -25,6 +26,7 @@ export class CustomersPage implements OnInit {
     this.getCustomers().subscribe(res => {
         console.log('Res', res);
         this.customers = res;
+        this.searchedCustomer = this.customers;
     });
   }
 
@@ -38,4 +40,18 @@ export class CustomersPage implements OnInit {
     .pipe( map((res: any) =>res.data) );
   }
 
+  searchCustomer(event){
+    const text = event.target.value;
+    console.log('Busqueda val: ' + text);
+
+    this.searchedCustomer = this.customers;
+    console.log(this.searchedCustomer);
+
+    if (text && text.trim() !== ''){
+
+      this.searchedCustomer = this.searchedCustomer.filter(
+        (customer: any) => (customer.name.toLowerCase().indexOf(text.toLowerCase()) > -1));
+    }
+
+  }
 }
