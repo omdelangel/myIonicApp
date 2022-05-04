@@ -1,28 +1,41 @@
 {
   "data" : [
     {
+      "id": 1,
       "name": "CDMX",
-      "image": "cdmx.jpg"
+      "image": "cdmx.jpg",
+      "desc": "La ciudad de Mexico es la capital del País"
     },
     {
+      "id": 2,
       "name": "Guadalajara Jal.",
-      "image": "guadalajara.jpg"
+      "image": "guadalajara.jpg",
+      "desc": "Guadalajara se distingue por el mariachi y sus trajes de charro"
     },
     {
+      "id": 3,
       "name": "Monterrey N.L.",
-      "image": "monterrey.jpg"
+      "image": "monterrey.jpg",
+      "desc": "Monterrey, capital del estadod e Nuevo León, son hartos tacaños"
     },
     {
+      "id": 4,
       "name": "Puebla",
-      "image": "puebla.jpg"
+      "image": "puebla.jpg",
+      "desc": "Consumen el camote y las semitas"
     },
     {
+      "id": 5,
       "name": "León Gto.",
-      "image": "leon.jpg"
+      "image": "leon.jpg",
+      "desc": "Ciudad muy bella, su principal actividad económica es la elaboración del calzado"
+
     },
     {
+      "id": 6,
       "name": "Toluca Edo. Mex",
-      "image": "toluca.jpg"
+      "image": "toluca.jpg",
+      "desc": "Capital del Estado de México, La elaboración del Chorizo es su floklore"
     }
   ]
 }
